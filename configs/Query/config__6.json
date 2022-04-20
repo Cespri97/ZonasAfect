@@ -1,0 +1,414 @@
+{
+  "hideLayersAfterWidgetClosed": true,
+  "labelTasks": "Realice su consulta",
+  "labelResults": "Resultados",
+  "showFilterLabel": false,
+  "criteiraLabel": "Criterios de consulta",
+  "spatialFilterLabel": "Filtros espaciales",
+  "queries": [
+    {
+      "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/BurnedArea_SierraBermeja/FeatureServer/0",
+      "name": "Superficie Afectada",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/AmberBeacon.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "area",
+              "label": "area",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeDouble"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "El área afectada es mayor que:",
+              "hint": "3000",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": null,
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{area}",
+        "fieldInfos": [
+          {
+            "fieldName": "FID",
+            "label": "FID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "area",
+            "label": "area",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ORIG_FID",
+            "label": "ORIG_FID",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": true,
+      "resultsSymbol": null,
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": "BurnedArea_SierraBermeja_4097",
+      "customResultName": true
+    },
+    {
+      "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/AnalisisMulticriterio_SierrraBermeja/FeatureServer/1",
+      "name": "Vulnerabilidad de la zona",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "http://static.arcgis.com/images/Symbols/Basic/RedBeacon.png",
+        "imageData": "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",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "gridcode",
+              "label": "gridcode",
+              "dateFormat": "",
+              "shortType": "number",
+              "type": "esriFieldTypeInteger"
+            },
+            "operator": "numberOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": null
+            },
+            "interactiveObj": {
+              "prompt": "El nivel de vulnerabilidad es:",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": {
+          "default": true,
+          "relationships": [
+            {
+              "relationship": "SPATIAL_REL_INTERSECTS",
+              "label": "intersecar"
+            }
+          ],
+          "buffer": null
+        },
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{Shape__Area}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Id",
+            "label": "Id",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "gridcode",
+            "label": "gridcode",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          192,
+          80,
+          77,
+          255
+        ],
+        "outline": {
+          "color": [
+            160,
+            63,
+            60,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "enableExport": false,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": null,
+      "customResultName": true
+    },
+    {
+      "url": "https://services5.arcgis.com/zZdalPw2d0tQx8G1/arcgis/rest/services/Areas_Afectadas_MFE/FeatureServer/1",
+      "name": "Vegetación Presente en la zona",
+      "icon": {
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0,
+        "type": "esriPMS",
+        "url": "https://static.arcgis.com/images/Symbols/NPS/Wilderness_1.png",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxEAAAsRAX9kX5EAAALQSURBVHhe7VuLjcIwFOsIjMAoHYGR2IARGIERGIERGIERuBjdQzg40DbvRXdtLVk6+eBZdpMcn2uXoU88Jd5nSmRDRolDonrSHImshCWFNz5LwJJQD1gCH9vhbc/vdrv7+Xy+zwXIgkx5zkRkZxEPnCsKJbDQ8srfbrcHWwHZ8ryJLLQErkjLFYey87yJLLTC4XB4euLnVnjN+ksWWuByuZAnCK0Fct9EFqKBZbjdbskThNbiPMh9E1mIRuEkfrDFeSB8WYjE674vMfo8EJ4sREHt+xIjzwPhx0IESvu+xMjzQPixEIFP+77EqPNAeLEQDSzvzWZDniCueos/hblvIguRKIU34nfRJQhfFqLwLbwxugThyUIEhoY3RpYg/FjwxtjwxqgShBcLnpga3hhRgvBhwQvX67UqvBEzMMsLwoOFaJRWRcTVVsh9E1mIxLct0aIE4ctCFL6FN0aXIDxZiMDQ8MbIEoQfC94YG94YVYLwYsETU8MbI0oQPix4oTa80bsE4cGCB7zCGz1LEPNZqIV3eKNXCWI2C1E4Ho/kUyKC4rFREJ4sRGBo+FdGlSC8WPDGlPDGiBKEDwueqAlv9C5BeLDgBY/wRs8SxHwWPOAZ3uhVgpjNQi0iwhs9ShBzWahBZHhjbQliJgtT0SK8saYEMY+FqcCrNPwLiuLpdLr3fU8+n4jH4jlqFljzilD4seANBBnzvaARz8FzvSG8WPACPsgcc9VLxIx/9aEovtXd7/c004OY6fGNsZjNQg2mLveh9NgWYi4LU+C13IeyZluIeSyMBZZmxPv/b4QnvMdCzGKhBdQZMSXMFOS+iSy0wFrAWsBaAHmCawFrAWsBv7+NRe6byEIL/OkCvL6C+gS8jM3f43u+4ysBPnneRBZa3sLSGoV/2Z3/bXNY1YXwj9vmFn/jJLDoW2cNSyrhLbwBS+LtTJgRke257Luu634A2Uu6TxU2TbMAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "width": 18,
+        "height": 18
+      },
+      "filter": {
+        "logicalOperator": "AND",
+        "parts": [
+          {
+            "fieldObj": {
+              "name": "DEFINICION",
+              "label": "DEFINICION",
+              "dateFormat": "",
+              "shortType": "string",
+              "type": "esriFieldTypeString"
+            },
+            "operator": "stringOperatorIs",
+            "valueObj": {
+              "isValid": true,
+              "type": "value",
+              "value": ""
+            },
+            "interactiveObj": {
+              "prompt": "El tipo de vegetación afectada es",
+              "hint": "",
+              "cascade": "none"
+            },
+            "caseSensitive": false
+          }
+        ],
+        "expr": "",
+        "displaySQL": ""
+      },
+      "showSQL": false,
+      "spatialFilter": {
+        "currentMapExtent": null,
+        "drawing": null,
+        "useFeatures": {
+          "default": true,
+          "relationships": [
+            {
+              "relationship": "SPATIAL_REL_INTERSECTS",
+              "label": "intersecar"
+            }
+          ],
+          "buffer": null
+        },
+        "fullLayerExtent": null
+      },
+      "popupInfo": {
+        "title": "{DEFINICION}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "DEFINICION",
+            "label": "DEFINICION",
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Area",
+            "label": "Shape__Area",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "Shape__Length",
+            "label": "Shape__Length",
+            "tooltip": "",
+            "visible": false,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": false,
+        "mediaInfos": [],
+        "readFromWebMap": false
+      },
+      "orderByFields": [],
+      "useLayerSymbol": false,
+      "resultsSymbol": {
+        "color": [
+          155,
+          187,
+          89,
+          128
+        ],
+        "outline": {
+          "color": [
+            115,
+            140,
+            61,
+            255
+          ],
+          "width": 1.5,
+          "type": "esriSLS",
+          "style": "esriSLSSolid"
+        },
+        "type": "esriSFS",
+        "style": "esriSFSSolid"
+      },
+      "canModifySymbol": false,
+      "enableExport": true,
+      "defaultExpand": true,
+      "singleResultLayer": true,
+      "webMapLayerId": null,
+      "customResultName": true
+    }
+  ]
+}

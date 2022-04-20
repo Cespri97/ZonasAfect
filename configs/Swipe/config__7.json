@@ -1,0 +1,21 @@
+{
+  "style": "horizontal",
+  "layerState": {
+    "Caminos_8548": {
+      "selected": true
+    },
+    "Areas_Afectadas_MFE_7765": {
+      "selected": true
+    },
+    "BurnedArea_SierraBermeja_4097": {
+      "selected": true
+    }
+  },
+  "layer": "Caminos_8548",
+  "isZoom": false,
+  "handleColor": "#dadada",
+  "layerMode": "single",
+  "defaultLayers": [],
+  "invertPlacement": false,
+  "isHidePanel": false
+}
